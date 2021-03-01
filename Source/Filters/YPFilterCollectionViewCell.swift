@@ -23,8 +23,8 @@ class YPFilterCollectionViewCell: UICollectionViewCell {
     override var isSelected: Bool {
         didSet {
             name.textColor = isSelected
-                ? YPColors.filterSelectedColor
-                : YPColors.filterUnselectedColor
+                ? YPConfig.colors.filterSelectedColor
+                : YPColors.colors.filterUnselectedColor
             name.font = isSelected
 				? YPConfig.fonts.filterSelectionSelectedFont
 				: YPConfig.fonts.filterSelectionUnSelectedFont
