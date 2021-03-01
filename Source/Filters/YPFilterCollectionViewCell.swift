@@ -24,7 +24,7 @@ class YPFilterCollectionViewCell: UICollectionViewCell {
         didSet {
             name.textColor = isSelected
                 ? YPConfig.colors.filterSelectedColor
-                : YPColors.colors.filterUnselectedColor
+                : YPConfig.colors.filterUnselectedColor
             name.font = isSelected
 				? YPConfig.fonts.filterSelectionSelectedFont
 				: YPConfig.fonts.filterSelectionUnSelectedFont
