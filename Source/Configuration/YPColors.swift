@@ -77,4 +77,9 @@ public struct YPColors {
     public var albumTintColor: UIColor = .ypLabel
     /// The color of the Album's title color
     public var albumTitleColor: UIColor = .ypLabel
+    ///Defines the textcolor to be show the Filter collectionViewTitle Seleccted
+    public var filterSelectedColor: UIColor = .ypLabel
+    
+    ///Defines the textcolor to be show the Filter collectionViewTitle Unselected
+    public var filterUnselectedColor: UIColor = .ypSecondaryLabel
 }
