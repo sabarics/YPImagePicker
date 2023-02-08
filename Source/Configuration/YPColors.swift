@@ -50,6 +50,12 @@ public struct YPColors {
     /// A color for for bottom buttons not selected text.
     public var bottomMenuItemUnselectedTextColor: UIColor = .ypSecondaryLabel
 
+    /// The color of the crop overlay.
+    public var cropOverlayColor: UIColor = UIColor.ypSystemBackground.withAlphaComponent(0.4)
+
+    /// The default color of all navigation bars except album's.
+    public var defaultNavigationBarColor: UIColor = .offWhiteOrBlack
+
     // MARK: - Trimmer
     
     /// The color of the main border of the view
